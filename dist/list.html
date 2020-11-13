@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>列表页</title>
+  <link rel="stylesheet" href="css/list.min.css">
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <script src="js/nav.js"></script>
+
+  <script>
+    function ajax() {
+      nbylist = [
+      {
+        "sid": 1570,
+        "product_name": "nubia WATCH黑色皮革表带",
+        "product_point": "",
+        "color_name": "黑色",
+        "price": 199,
+        "origin_price": 199,
+        "image": "https://oss.static.nubia.cn/active/5f8545a03b3f53.png",
+        "link": "https://www.nubia.com/product/s/1570",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      },
+      {
+        "sid": 1523,
+        "product_name": "冰风散热魔盒Pro",
+        "product_point": "",
+        "color_name": "氘锋版",
+        "price": 179,
+        "origin_price": 179,
+        "image": "https://oss.static.nubia.cn/active/5f3f65034df0639.png",
+        "link": "https://www.nubia.com/product/s/1523",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      },
+      {
+        "sid": 1486,
+        "product_name": "红魔 丨飞智单手游戏手柄",
+        "product_point": "",
+        "color_name": "黑色",
+        "price": 379,
+        "origin_price": 379,
+        "image": "https://oss.static.nubia.cn/active/5f437a54b8e9580.png",
+        "link": "https://www.nubia.com/product/s/1486",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      },
+      {
+        "sid": 1487,
+        "product_name": "65瓦单口（1C）氮化镓充电器",
+        "product_point": "",
+        "color_name": "灰色",
+        "price": 119,
+        "origin_price": 119,
+        "image": "https://oss.static.nubia.cn/active/5f39e0f53a2e780.png",
+        "link": "https://www.nubia.com/product/s/1487",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      },
+      {
+        "sid": 1526,
+        "product_name": "红魔有线游戏耳机",
+        "product_point": "",
+        "color_name": "黑色（3.5mm）",
+        "price": 99,
+        "origin_price": 99,
+        "image": "https://oss.static.nubia.cn/active/5f43731e1aea435.png",
+        "link": "https://www.nubia.com/product/s/1526",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      },
+      {
+        "sid": 1528,
+        "product_name": "红魔有线游戏耳机",
+        "product_point": "",
+        "color_name": "黑色（Type -C）",
+        "price": 99,
+        "origin_price": 99,
+        "image": "https://oss.static.nubia.cn/active/5f43731e026cc65.png",
+        "link": "https://www.nubia.com/product/s/1528"
+      },
+      {
+        "sid": 1531,
+        "product_name": "65W单口氮化镓快速充电器",
+        "product_point": "",
+        "color_name": "绿色",
+        "price": 119,
+        "origin_price": 119,
+        "image": "https://oss.static.nubia.cn/active/5f6d63ab16d8940.png",
+        "link": "https://www.nubia.com/product/s/1531",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      },
+      {
+        "sid": 1532,
+        "product_name": "65W单口氮化镓快速充电器",
+        "product_point": "",
+        "color_name": "蓝色",
+        "price": 119,
+        "origin_price": 119,
+        "image": "https://oss.static.nubia.cn/active/5f7302c17528633.png",
+        "link": "https://www.nubia.com/product/s/1532",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      },
+      {
+        "sid": 1533,
+        "product_name": "65W单口氮化镓快速充电器",
+        "product_point": "",
+        "color_name": "黄色",
+        "price": 119,
+        "origin_price": 119,
+        "image": "https://oss.static.nubia.cn/active/5f7302c1750c779.png",
+        "link": "https://www.nubia.com/product/s/1533",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      },
+      {
+        "sid": 1576,
+        "product_name": "Type C to 2 Type C 二合一编织线",
+        "product_point": "",
+        "color_name": "灰色",
+        "price": 79,
+        "origin_price": 79,
+        "image": "https://oss.static.nubia.cn/active/5fa4fd818f2d768.png",
+        "link": "https://www.nubia.com/product/s/1576",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      },
+      {
+        "sid": 1521,
+        "product_name": "C2C转Lighting二合一数据线",
+        "product_point": "",
+        "color_name": "灰色",
+        "price": 39,
+        "origin_price": 39,
+        "image": "https://oss.static.nubia.cn/active/5f2a22bd5802c90.png",
+        "link": "https://www.nubia.com/product/s/1521",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      },
+      {
+        "sid": 1529,
+        "product_name": "红魔5G/5S向量保护套（新款）",
+        "product_point": "",
+        "color_name": "黑色",
+        "price": 49,
+        "origin_price": 49,
+        "image": "https://oss.static.nubia.cn/active/5f56e2a0953c547.png",
+        "link": "https://www.nubia.com/product/s/1529",
+        "sale_point": {
+          "sale_point": "left",
+          "block_image_icon": {
+            "is_need": true,
+            "text": "新品",
+            "color": "#de634f"
+          }
+        }
+      }]
+
+      console.log(nbylist.length)
+      var html = ''
+      for (var i = 0; i < nbylist.length; i++) {
+        html += ' <div class="p_list col-md-3 col-sm-4 col-xs-6">',
+          html += ' <a href="' + nbylist[i].link + '">',
+          html += ' <img src="' + nbylist[i].image + '" alt="">',
+          html += ' <div>',
+          html += ' <p class="image">' + nbylist[i].product_name + '</p>',
+          html += ' <p class="details"> </p>',
+          html += ' <p class="price">¥' + nbylist[i].price + ' <span style="text-decoration: line-through;">' + nbylist[i].origin_price + '</span></p>',
+          html += ' <div class="buy">加入购物车</div>',
+          html += ' </div>',
+          html += ' </a>',
+          html += '</div>'
+      }
+      $("#list").html(html)
+
+
+    }
+    window.onload = ajax;
+  </script>
+
+</head>
+
+<body>
+
+  <!-- 1.头部导航 -->
+  <div class="header">
+    <ul class="head_nav">
+      <li class="logo">
+        <a href="http://localhost:8888/">
+        </a>
+      </li>
+      <!-- 中间 -->
+      <li class="list_content-con">
+        <ul class="list content">
+          <li>
+            <a href="
+          https://www.nubia.com/nubiaPlay?a=show.product.show" class="xl_a">
+              Play
+            </a>
+            <!-- 中间隐藏模块 -->
+            <div class="header_content-a">
+              <div class="content_list">
+                <ul>
+                  <li class="active">
+                    <div class="content_con">
+                      <ul>
+                        <a href="">
+                          <li>
+                            <img src="https://oss.static.nubia.cn/active/5ea30ec20b13056.png" alt="">
+                            <p>5彩斑斓黑</p>
+                          </li>
+                        </a>
+                        <a href="">
+                          <li>
+                            <img src="https://oss.static.nubia.cn/active/5ea01230a0ce944.png" alt="">
+                            <p>5湖四海蓝</p>
+                          </li>
+                        </a>
+                        <a href="">
+                          <li><img src="https://oss.static.nubia.cn/active/5ed0b2e115b2191.png" alt="">
+                            <p>5颜六色白</p>
+                          </li>
+                        </a>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="http://localhost:8888/list.html" class="xl_a">Z系列
+            </a>
+            <div class="header_content-a">
+              <div>
+                <div class="content_list">
+                  <ul>
+                    <li class="active">
+                      <div class="content_con">
+                        <ul>
+                          <a href="">
+                            <li>
+                              <img src="https://oss.static.nubia.cn/produc/158389379136.png" alt="">
+                              <p>Z20</p>
+                            </li>
+
+                          </a>
+                          <a href="">
+                            <li>
+                              <img src="https://oss.static.nubia.cn/produc/15838962399.png" alt="">
+                              <p>X</p>
+                            </li>
+
+                          </a>
+
+                        </ul>
+                      </div>
+
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="https://www.nubia.com/phone/red" class="xl_a">红魔</a>
+            <div class="header_content-a">
+              <div>
+                <div class="content_list">
+                  <ul>
+                    <li class="active">
+                      <div class="content_con">
+                        <ul>
+                          <a href="">
+                            <li>
+                              <img src="https://oss.static.nubia.cn/produc/159643429472.png" alt="">
+                              <p>红魔5S 游戏手机</p>
+                              <p>新品</p>
+                            </li>
+
+                          </a>
+                          <a href="">
+                            <li>
+                              <img src="https://oss.static.nubia.cn/produc/15907364279.png" alt="">
+                              <p>红魔5G 游戏手机 氘锋版</p>
+                              <p>新品</p>
+                            </li>
+                          </a>
+                          <a href="">
+                            <li>
+                              <img src="https://oss.static.nubia.cn/produc/158408092771.png" alt="">
+                              <p>红魔5G 游戏手机</p>
+                              <p>新品</p>
+                            </li>
+                          </a>
+                          <a href="">
+                            <li>
+                              <img src="https://oss.static.nubia.cn/produc/158389361740.png" alt="">
+                              <p>红魔3S</p>
+
+                            </li>
+                          </a>
+
+                        </ul>
+                      </div>
+
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="https://www.nubia.com/shop/intelligence">智能生态</a></li>
+          <li><a href="https://www.nubia.com/shop/brand">品牌</a></li>
+          <li><a href="https://www.nubia.com/active/service">服务</a></li>
+          <li><a href="https://bbs.nubia.com/portal.php">社区</a></li>
+          <li><a href="https://www.nubia.com/active/8934837741ec16c.html">体验店</a></li>
+        </ul>
+      </li>
+      <!-- 头部右边 -->
+      <li class="head_nav_right">
+        <ul>
+          <li>
+            <a href="http://localhost:8888/sign.html" class="img_a1" id="img_a1">
+            </a>
+            <div class="head_user_content list box_s" id="hov_div">
+              <ul>
+                <li style="margin-bottom: 15px; float: right;width: 100%;display: flex;flex-direction: row;justify-content: space-between;">
+                  <a href="" class="first_a01">立即登录</a>
+                  <span class="no_account">无账号？
+                    <a href="" style="color: rgb(80, 151, 223);width: auto;">立即注册</a>
+                  </span>
+
+                </li>
+                <li role="presentation">
+                  <a href="" class="hov_a">个人中心</a>
+                </li>
+                <li role="presentation">
+                  <a href="" class="hov_a">我的订单</a>
+                </li>
+                <li role="presentation">
+                  <a href="" class="hov_a">我的优惠券</a>
+                </li>
+                <li role="presentation">
+                  <a href="" class="hov_a">我的收藏</a>
+                </li>
+                <li role="presentation">
+                  <a href="" class="hov_a">我的预约</a>
+                </li>
+                <li role="presentation" class="last-li" style="border:0;">
+                  <a href="" class="hov_a">收货地址</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="http://localhost:8888/shopping.html" class="img_a2"></a>
+            <div class="head_user_content box_s" style="right: -34px; padding: 35px 20px;display: none;" id="hov_d">
+              <ul class="car_nothing">
+                <li>您的购物车里没有商品！</li>
+                <li><a href="http://localhost:8888/list.html" class="red_btn">去购物</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="" class="img_a3"></a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- 2. -->
+  <div class="all">
+    <div class="cg">
+      <div>
+        <a href="">
+          <img src="https://oss.static.nubia.cn/active/5db95ecba901211.jpg" alt="">
+        </a>
+      </div>
+      <div>
+        <div class="b_content black">
+          <div>
+            <h1>努比亚Z20</h1>
+            <p>4800万超清双屏自拍|骁龙855Plus</p>
+            <p><span>¥2799</span>起</p>
+            <a class="buy black" href="">立即购买</a>
+            <a class="more" href="">了解更多</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cg">
+      <div>
+        <a href="">
+          <img src="https://oss.static.nubia.cn/active/5db8026634e5142.jpg" alt="">
+        </a>
+      </div>
+      <div>
+        <div class="b_content b_content_right white ">
+          <div>
+            <h1>努比亚X</h1>
+            <p class="p23">骁龙845|双屏黑科技</p>
+            <p class="p23"><span>¥2199</span>起</p>
+            <a class="buy white" href="">立即购买</a>
+            <a class="more" href="">了解更多</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 列表 -->
+    <div id="list_all">
+      <div class="col-xs-12">
+        <b>配件</b>
+        <ul>
+          <li class="list_all_title">所有</li>
+          <li class="list_all_title">Z20</li>
+          <li class="list_all_title">X</li>
+        </ul>
+      </div>
+      <div class="p_list_all" id="list">
+
+        <!-- 
+        <div class="p_list col-md-3 col-sm-4 col-xs-6">
+          <a href="">
+            <img src="https://oss.static.nubia.cn/active/5d91bd70c429836.png" alt="">
+            <div>
+              <p class="image">USB A to Type C 编织数据线 黑色</p>
+              <p class="details"> </p>
+              <p class="price">¥35 <span style="text-decoration: line-through;">39</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="p_list col-md-3 col-sm-4 col-xs-6">
+          <a href="">
+            <img src="https://oss.static.nubia.cn/active/5d8c8065b4d6377.png" alt="">
+            <div>
+              <p class="image">车载香薰 深灰色</p>
+              <p class="details"> </p>
+              <p class="price">¥39 <span style="text-decoration: line-through;">49</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="p_list col-md-3 col-sm-4 col-xs-6">
+          <a href="">
+            <img src="https://oss.static.nubia.cn/active/5cb7ebdae050051.png" alt="">
+            <div>
+              <p class="image">VR全景相机 黑色</p>
+              <p class="details"> </p>
+              <p class="price">¥299 <span style="text-decoration: line-through;">699</span></p>
+            </div>
+          </a>
+        </div>
+      </div> -->
+
+      </div>
+
+    </div>
+    <!-- 底部 -->
+    <div class="foot">
+      <div class="container">
+        <!-- foot-top -->
+        <div class="f-top">
+          <div>
+            <a href="">
+              <img src="../images/7.png" alt="">
+              <br>
+              <span>7天无理由退货</span>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="../images/dh.png" alt=""><br>
+              <span>保内免费上门维修</span>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="../images/SF.png" alt=""><br>
+              <span>全场59元免运费</span>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="../images/ditu.png" alt=""><br>
+              <span>查找线下商店</span>
+            </a>
+          </div>
+        </div>
+        <!-- foot c -->
+        <div class="foot-c">
+          <div>
+            <p>关于我们</p>
+            <i></i>
+            <ul>
+              <li><a href="">关于nubia</a></li>
+              <li><a href="">联系我们</a></li>
+              <li><a href="">商家入驻</a></li>
+              <li><a href="">企业购</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <p>手机</p>
+            <i></i>
+            <ul>
+              <li><a href="">红魔5S</a></li>
+              <li><a href="">nubia Play</a></li>
+              <li><a href="">红魔5G</a></li>
+              <li><a href="">红魔5G氘锋透明版</a></li>
+              <li><a href="">红魔3S</a></li>
+              <li><a href="">Z20</a></li>
+              <li><a href="">中兴手机</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <p>热门活动</p>
+            <i></i>
+            <ul>
+              <li><a href="">星球漫游指南</a></li>
+              <li><a href="">努比亚会员</a></li>
+              <li><a href="">NB码通道</a></li>
+              <li><a href="">以旧换新</a></li>
+              <li><a href="">全民分销</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <p>服务支持</p>
+            <i></i>
+            <ul>
+              <li><a href="">售后服务</a></li>
+              <li><a href="">售后网点</a></li>
+              <li><a href="">特色服务</a></li>
+              <li><a href="">软件下载</a></li>
+              <li><a href="">产品安全</a></li>
+              <li><a href="">云服务</a></li>
+            </ul>
+          </div>
+
+          <div class="call_me">
+            <div>
+              <a href="">
+                <img src="../images/qipao2.png" alt="">&nbsp;在线客服
+              </a>
+            </div>
+            <div>
+              <p>全国服务热线</p>
+              <p>
+                <b>400-700-6600</b>
+              </p>
+              <p>周一到周日8:30-20:30(全年无休)</p>
+            </div>
+            <div>
+              <a href="">
+                关注我们:&nbsp;&nbsp;
+                <img src="//static.nubia.cn/shop/images/nb-weixin-code-figure.jpg" alt="">
+                <img src="../images/weixin.png
+                " alt="">
+              </a>&nbsp;
+              <a href="">
+                <img src="../images/weibo.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- foot bottom -->
+        <div class="master-footer">
+          <div class="container">
+            <div class="nubia-foot-nav">
+              <div class="">
+                2012-2020 深圳市努比亚信息技术有限公司 版权所有&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="">粤ICP备18069660号</a>
+                <br>
+                <br>
+                ICP经营许可证编号：粤B2-20201516&nbsp;&nbsp;|&nbsp;&nbsp;粤公网安备 44030502000309号
+                <a href="">&nbsp;&nbsp;隐私政策</a>
+                <a href=""> | 关于Cookie</a>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="">营业执照</a>
+              </div>
+              <!-- 国家 -->
+              <div class="btn-group">
+                <button class="btn">
+                  <img src="../images/guoqi.png" alt="">
+                  中国（简体中文/CNY）
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>

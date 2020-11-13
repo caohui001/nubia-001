@@ -1,0 +1,736 @@
+
+			[{
+				"sid": 1572,
+				"product_name": "65W三口氮化镓充电器（GaN 2 pro）",
+				"product_point": "",
+				"color_name": "灰色",
+				"price": 148,
+				"origin_price": 148,
+				"image": "https://oss.static.nubia.cn/active/5f9629c8cb08d89.png",
+				"link": "https://www.nubia.com/product/s/1572",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1575,
+				"product_name": "红魔TWS真无线游戏蓝牙耳机",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 299,
+				"origin_price": 299,
+				"image": "https://oss.static.nubia.cn/active/5f9bb83e46f4636.png",
+				"link": "https://www.nubia.com/product/s/1575"
+			},
+			{
+				"sid": 1485,
+				"product_name": "nubia WATCH",
+				"product_point": "",
+				"color_name": "骑士黑",
+				"price": 1499,
+				"origin_price": 1799,
+				"image": "https://oss.static.nubia.cn/active/5f2002f25784c51.png",
+				"link": "https://www.nubia.com/product/s/1485",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1530,
+				"product_name": "氘锋颈挂蓝牙游戏耳机",
+				"product_point": "",
+				"color_name": "银灰色",
+				"price": 399,
+				"origin_price": 399,
+				"image": "https://oss.static.nubia.cn/active/5f5b19e59b75a82.png",
+				"link": "https://www.nubia.com/product/s/1530",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1486,
+				"product_name": "红魔 丨飞智单手游戏手柄",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 379,
+				"origin_price": 379,
+				"image": "https://oss.static.nubia.cn/active/5f437a54b8e9580.png",
+				"link": "https://www.nubia.com/product/s/1486",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1487,
+				"product_name": "65瓦单口（1C）氮化镓充电器",
+				"product_point": "",
+				"color_name": "灰色",
+				"price": 119,
+				"origin_price": 119,
+				"image": "https://oss.static.nubia.cn/active/5f39e0f53a2e780.png",
+				"link": "https://www.nubia.com/product/s/1487",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1526,
+				"product_name": "红魔有线游戏耳机",
+				"product_point": "",
+				"color_name": "黑色（3.5mm）",
+				"price": 99,
+				"origin_price": 99,
+				"image": "https://oss.static.nubia.cn/active/5f43731e1aea435.png",
+				"link": "https://www.nubia.com/product/s/1526",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1528,
+				"product_name": "红魔有线游戏耳机",
+				"product_point": "",
+				"color_name": "黑色（Type -C）",
+				"price": 99,
+				"origin_price": 99,
+				"image": "https://oss.static.nubia.cn/active/5f43731e026cc65.png",
+				"link": "https://www.nubia.com/product/s/1528"
+			},
+			{
+				"sid": 1531,
+				"product_name": "65W单口氮化镓快速充电器",
+				"product_point": "",
+				"color_name": "绿色",
+				"price": 119,
+				"origin_price": 119,
+				"image": "https://oss.static.nubia.cn/active/5f6d63ab16d8940.png",
+				"link": "https://www.nubia.com/product/s/1531",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1532,
+				"product_name": "65W单口氮化镓快速充电器",
+				"product_point": "",
+				"color_name": "蓝色",
+				"price": 119,
+				"origin_price": 119,
+				"image": "https://oss.static.nubia.cn/active/5f7302c17528633.png",
+				"link": "https://www.nubia.com/product/s/1532",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1533,
+				"product_name": "65W单口氮化镓快速充电器",
+				"product_point": "",
+				"color_name": "黄色",
+				"price": 119,
+				"origin_price": 119,
+				"image": "https://oss.static.nubia.cn/active/5f7302c1750c779.png",
+				"link": "https://www.nubia.com/product/s/1533",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1534,
+				"product_name": "65W单口氮化镓快速充电器",
+				"product_point": "",
+				"color_name": "粉红色",
+				"price": 119,
+				"origin_price": 119,
+				"image": "https://oss.static.nubia.cn/active/5f6d6332e871679.png",
+				"link": "https://www.nubia.com/product/s/1534",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1576,
+				"product_name": "Type C to 2 Type C 二合一编织线",
+				"product_point": "",
+				"color_name": "灰色",
+				"price": 79,
+				"origin_price": 79,
+				"image": "https://oss.static.nubia.cn/active/5fa4fd818f2d768.png",
+				"link": "https://www.nubia.com/product/s/1576",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1488,
+				"product_name": "45W双口(1A+1C)氮化镓充电器",
+				"product_point": "",
+				"color_name": "灰色",
+				"price": 99,
+				"origin_price": 99,
+				"image": "https://oss.static.nubia.cn/active/5f29294243f3f4.png",
+				"link": "https://www.nubia.com/product/s/1488",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1490,
+				"product_name": "5A  C2C编织数据线",
+				"product_point": "",
+				"color_name": "灰色",
+				"price": 69,
+				"origin_price": 69,
+				"image": "https://oss.static.nubia.cn/active/5f2a05e378d6516.png",
+				"link": "https://www.nubia.com/product/s/1490",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1521,
+				"product_name": "C2C转Lighting二合一数据线",
+				"product_point": "",
+				"color_name": "灰色",
+				"price": 39,
+				"origin_price": 39,
+				"image": "https://oss.static.nubia.cn/active/5f2a22bd5802c90.png",
+				"link": "https://www.nubia.com/product/s/1521",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1529,
+				"product_name": "红魔5G/5S向量保护套（新款）",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 49,
+				"origin_price": 49,
+				"image": "https://oss.static.nubia.cn/active/5f56e2a0953c547.png",
+				"link": "https://www.nubia.com/product/s/1529",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1570,
+				"product_name": "nubia WATCH黑色皮革表带",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 199,
+				"origin_price": 199,
+				"image": "https://oss.static.nubia.cn/active/5f8545a03b3f53.png",
+				"link": "https://www.nubia.com/product/s/1570",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1523,
+				"product_name": "冰风散热魔盒Pro",
+				"product_point": "",
+				"color_name": "氘锋版",
+				"price": 179,
+				"origin_price": 179,
+				"image": "https://oss.static.nubia.cn/active/5f3f65034df0639.png",
+				"link": "https://www.nubia.com/product/s/1523",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1524,
+				"product_name": "冰风散热魔盒Pro",
+				"product_point": "",
+				"color_name": "红魔版",
+				"price": 179,
+				"origin_price": 179,
+				"image": "https://oss.static.nubia.cn/active/5f3f65635b91375.png",
+				"link": "https://www.nubia.com/product/s/1524",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1441,
+				"product_name": "红魔5G游戏手机大礼包",
+				"product_point": "",
+				"color_name": "白色",
+				"price": 399,
+				"origin_price": 399,
+				"image": "https://oss.static.nubia.cn/active/5eba66bce116a53.png",
+				"link": "https://www.nubia.com/product/s/1441"
+			},
+			{
+				"sid": 1474,
+				"product_name": "努比亚小新 智能速干牙刷消毒器",
+				"product_point": "",
+				"color_name": "白色",
+				"price": 179,
+				"origin_price": 179,
+				"image": "https://oss.static.nubia.cn/active/5ef9660ad65c129.png",
+				"link": "https://www.nubia.com/product/s/1474"
+			},
+			{
+				"sid": 1465,
+				"product_name": "努比亚小新 智能声波电动牙刷",
+				"product_point": "",
+				"color_name": "樱花粉",
+				"price": 199,
+				"origin_price": 199,
+				"image": "https://oss.static.nubia.cn/active/5ed0b6745cb2d48.png",
+				"link": "https://www.nubia.com/product/s/1465"
+			},
+			{
+				"sid": 1468,
+				"product_name": "努比亚小新 智能声波电动牙刷",
+				"product_point": "",
+				"color_name": "粉色款牙刷头",
+				"price": 48,
+				"origin_price": 48,
+				"image": "https://oss.static.nubia.cn/active/5f20252ccb2e45.png",
+				"link": "https://www.nubia.com/product/s/1468"
+			},
+			{
+				"sid": 1446,
+				"product_name": "红魔5G/5S手机透明保护套",
+				"product_point": "",
+				"color_name": "透明",
+				"price": 49,
+				"origin_price": 49,
+				"image": "https://oss.static.nubia.cn/active/5ed0b3fcc222a97.png",
+				"link": "https://www.nubia.com/product/s/1446"
+			},
+			{
+				"sid": 1402,
+				"product_name": "努比亚 Play 5G双滑轨保护套",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 49,
+				"origin_price": 49,
+				"image": "https://oss.static.nubia.cn/active/5e9e46814131945.png",
+				"link": "https://www.nubia.com/product/s/1402"
+			},
+			{
+				"sid": 1403,
+				"product_name": "65W氘锋氮化镓充电器",
+				"product_point": "",
+				"color_name": "银灰色",
+				"price": 169,
+				"origin_price": 169,
+				"image": "https://oss.static.nubia.cn/active/5e9825d541d6f8.png",
+				"link": "https://www.nubia.com/product/s/1403"
+			},
+			{
+				"sid": 1359,
+				"product_name": "45W闪充氘锋移动电源",
+				"product_point": "",
+				"color_name": "银灰色",
+				"price": 299,
+				"origin_price": 299,
+				"image": "https://oss.static.nubia.cn/active/5e829b2e1406914.png",
+				"link": "https://www.nubia.com/product/s/1359"
+			},
+			{
+				"sid": 1351,
+				"product_name": "27W PD快充氘锋移动电源",
+				"product_point": "",
+				"color_name": "银灰色",
+				"price": 149,
+				"origin_price": 149,
+				"image": "https://oss.static.nubia.cn/active/5e673d9a1410992.png",
+				"link": "https://www.nubia.com/product/s/1351"
+			},
+			{
+				"sid": 1356,
+				"product_name": "红魔5G/5S钢化膜",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 39,
+				"origin_price": 39,
+				"image": "https://oss.static.nubia.cn/active/5e673b4102ad050.png",
+				"link": "https://www.nubia.com/product/s/1356"
+			},
+			{
+				"sid": 1357,
+				"product_name": "努比亚typeC to typeC 5A数据线",
+				"product_point": "",
+				"color_name": "红色",
+				"price": 59,
+				"origin_price": 59,
+				"image": "https://oss.static.nubia.cn/active/5e67397d9973022.png",
+				"link": "https://www.nubia.com/product/s/1357"
+			},
+			{
+				"sid": 1355,
+				"product_name": "红魔5G/5S双滑轨保护套",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 49,
+				"origin_price": 49,
+				"image": "https://oss.static.nubia.cn/active/5e673bac2313d42.png",
+				"link": "https://www.nubia.com/product/s/1355"
+			},
+			{
+				"sid": 1344,
+				"product_name": "律音耳机（新版）",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 69,
+				"origin_price": 99,
+				"image": "https://oss.static.nubia.cn/active/5e8da12ca16714.png",
+				"link": "https://www.nubia.com/product/s/1344"
+			},
+			{
+				"sid": 1327,
+				"product_name": "USB A to Type C 编织数据线",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 35,
+				"origin_price": 39,
+				"image": "https://oss.static.nubia.cn/active/5d91bd70c429836.png",
+				"link": "https://www.nubia.com/product/s/1327"
+			},
+			{
+				"sid": 1342,
+				"product_name": "红魔战鼓便携式TWS音箱",
+				"product_point": "",
+				"color_name": "红色",
+				"price": 88,
+				"origin_price": 88,
+				"image": "https://oss.static.nubia.cn/active/5db0f9b77e7451.png",
+				"link": "https://www.nubia.com/product/s/1342"
+			},
+			{
+				"sid": 1340,
+				"product_name": "红魔3/3S钢化磨砂玻璃屏幕保护膜",
+				"product_point": "",
+				"color_name": "磨砂",
+				"price": 49,
+				"origin_price": 59,
+				"image": "https://oss.static.nubia.cn/active/5da98bc28effa80.png",
+				"link": "https://www.nubia.com/product/s/1340"
+			},
+			{
+				"sid": 1121,
+				"product_name": "红魔战神手柄",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 179,
+				"origin_price": 179,
+				"image": "https://oss.static.nubia.cn/active/5c3bf1701cf0b30.png",
+				"link": "https://www.nubia.com/product/s/1121"
+			},
+			{
+				"sid": 1210,
+				"product_name": "红魔弹夹移动电源",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 149,
+				"origin_price": 149,
+				"image": "https://oss.static.nubia.cn/active/5d4259f246d3f74.png",
+				"link": "https://www.nubia.com/product/s/1210"
+			},
+			{
+				"sid": 1326,
+				"product_name": "红魔加长电竞数据线 （2M）",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 39,
+				"origin_price": 49,
+				"image": "https://oss.static.nubia.cn/active/5d8c81976623e21.png",
+				"link": "https://www.nubia.com/product/s/1326"
+			},
+			{
+				"sid": 1325,
+				"product_name": "车载香薰",
+				"product_point": "",
+				"color_name": "深灰色",
+				"price": 39,
+				"origin_price": 49,
+				"image": "https://oss.static.nubia.cn/active/5d8c8065b4d6377.png",
+				"link": "https://www.nubia.com/product/s/1325"
+			},
+			{
+				"sid": 1119,
+				"product_name": "红魔Mars向量保护套",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 79,
+				"origin_price": 79,
+				"image": "https://oss.static.nubia.cn/active/5c3bf16fd64d439.png",
+				"link": "https://www.nubia.com/product/s/1119"
+			},
+			{
+				"sid": 1159,
+				"product_name": "努比亚阿尔法",
+				"product_point": "",
+				"color_name": "伯爵黑（联通版）",
+				"price": 3699,
+				"origin_price": 3699,
+				"image": "https://oss.static.nubia.cn/active/5caab828be8847.png",
+				"link": "https://www.nubia.com/product/s/1159"
+			},
+			{
+				"sid": 1195,
+				"product_name": "努比亚阿尔法",
+				"product_point": "",
+				"color_name": "流光金（联通版）",
+				"price": 4499,
+				"origin_price": 4499,
+				"image": "https://oss.static.nubia.cn/active/5ceb3cee05cf548.png",
+				"link": "https://www.nubia.com/product/s/1195"
+			},
+			{
+				"sid": 1031,
+				"product_name": "创意贴纸",
+				"product_point": "",
+				"color_name": "白色",
+				"price": 29,
+				"origin_price": 29,
+				"image": "https://oss.static.nubia.cn/active/5cb80c158587031.png",
+				"link": "https://www.nubia.com/product/s/1031"
+			},
+			{
+				"sid": 860,
+				"product_name": "VR全景相机",
+				"product_point": "",
+				"color_name": "黑色",
+				"price": 299,
+				"origin_price": 699,
+				"image": "https://oss.static.nubia.cn/active/5cb7ebdae050051.png",
+				"link": "https://www.nubia.com/product/s/860"
+			},
+			{
+				"sid": 765,
+				"product_name": "Type-C 转接头",
+				"product_point": "",
+				"color_name": "白色",
+				"price": 19,
+				"origin_price": 19,
+				"image": "https://oss.static.nubia.cn/pic/146915196974.png",
+				"link": "https://www.nubia.com/product/s/765"
+			}
+		,
+		
+			{
+				"sid": 1476,
+				"product_name": "红魔5S 游戏手机",
+				"product_point": "",
+				"color_name": "冰封银翼",
+				"price": 3599,
+				"origin_price": 3799,
+				"image": "https://oss.static.nubia.cn/active/5f1fba309fc0a66.png",
+				"link": "https://www.nubia.com/product/s/1476",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1477,
+				"product_name": "红魔5S 游戏手机",
+				"product_point": "",
+				"color_name": "冰封银翼",
+				"price": 4199,
+				"origin_price": 4399,
+				"image": "https://oss.static.nubia.cn/active/5f1fba309fc0a66.png",
+				"link": "https://www.nubia.com/product/s/1477",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1478,
+				"product_name": "红魔5S 游戏手机",
+				"product_point": "",
+				"color_name": "赛博霓虹",
+				"price": 4199,
+				"origin_price": 4399,
+				"image": "https://oss.static.nubia.cn/active/5f35e499b4c6668.png",
+				"link": "https://www.nubia.com/product/s/1478",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1479,
+				"product_name": "红魔5S 游戏手机",
+				"product_point": "",
+				"color_name": "赛博霓虹",
+				"price": 4799,
+				"origin_price": 4999,
+				"image": "https://oss.static.nubia.cn/active/5f35e499cb71477.png",
+				"link": "https://www.nubia.com/product/s/1479",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1573,
+				"product_name": "红魔5S 游戏手机",
+				"product_point": "",
+				"color_name": "幻影黑",
+				"price": 4199,
+				"origin_price": 4399,
+				"image": "https://oss.static.nubia.cn/active/5f962bd250d2a84.png",
+				"link": "https://www.nubia.com/product/s/1573",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1574,
+				"product_name": "红魔5S 游戏手机",
+				"product_point": "",
+				"color_name": "幻影黑",
+				"price": 3599,
+				"origin_price": 3799,
+				"image": "https://oss.static.nubia.cn/active/5f962bd250d2a84.png",
+				"link": "https://www.nubia.com/product/s/1574",
+				"sale_point": {
+					"sale_point": "left",
+					"block_image_icon": {
+						"is_need": true,
+						"text": "新品",
+						"color": "#de634f"
+					}
+				}
+			},
+			{
+				"sid": 1399,
+				"product_name": "nubia Play 双模5G",
+				"product_point": "",
+				"color_name": "5湖四海蓝",
+				"price": 2299,
+				"origin_price": 2999,
+				"image": "https://oss.static.nubia.cn/active/5ea77bfddf77041.png",
+				"link": "https://www.nubia.com/product/s/1399"
+			},
+			{
+				"sid": 1404,
+				"product_name": "nubia Play 双模5G",
+				"product_point": "",
+				"color_name": "5湖四海蓝",
+				"price": 1999,
+				"origin_price": 2699,
+				"image": "https://oss.static.nubia.cn/active/5ea01230a0ce944.png",
+				"link": "https://www.nubia.com/product/s/1404"
+			}
+		]

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>用户登录</title>
+  <link rel="stylesheet" href="css/sign.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../js/sign.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="../images/ia_200000028.png" alt="">
+    </div>
+    <form action="" id="logoinForm">
+      <input type="hidden" id="form_tag" value="06a396286a55814c73bbcb70f7331d73">
+      <input type="hidden" id="session-tag" value="login_tag">
+      <div class="navTab">
+        <label for="" class="tab-btn cur" id="btn1">
+          <input type="radio" id="tab-mobile" value="mobile" checked="checked">账号密码登录</label>
+        |
+        <label for="" class="tab-btn" id="btn2">
+          <input type="radio" id="tab-email" value="email" checked="checked">手机验证码登录</label>
+      </div>
+
+      <div class="navCon ">
+        <div class="reg-id">
+          <dl>
+            <dd>
+              <div class="input-con">
+                <input type="text" id="username" maxlength="40" placeholder="邮箱/手机号码/用户名" datatype="*" errormsg="手机号码格式错误">
+                <span class="icon-id"></span>
+
+              </div>
+              <!-- <div class="checktip" id="user_name_tag">
+                <span id="username_error" class="Validform_checktip Validform_right"></span>
+              </div> -->
+            </dd>
+          </dl>
+          <dl>
+            <dd>
+              <div class="input-con">
+                <input type="password" id="password" maxlength="40" placeholder="密码为8-16个字符（数字、大小写字母、符号至少包含三种）">
+              </div>
+              <!-- <div class="checktip" id="password_tag">
+                <span id="password_error" class="Validform_checktip Validform_right"></span>
+
+              </div> -->
+            </dd>
+          </dl>
+        </div>
+        <div class="reg-phone">
+          <dl>
+            <dd>
+              <div class="input-con">
+                <input type="text" id="mobile" maxlength="40" placeholder="手机号码" datatype="m" errormsg="手机号码格式错误">
+                <span class="icon-id"></span>
+              </div>
+              <div class="checktip" id="mobile-tag">
+                <span id="phone_error" class="Validform_checktip Validform_right"></span>
+              </div>
+            </dd>
+          </dl>
+          <dl>
+            <dd>
+              <div class="input-con"><input type="text" id="mobileValidateCode" placeholder="请输入手机验证码" datatype="*">
+                <input type="button" value="获取验证码" class="btn-code" id="btn-code-mobile">
+                <input type="hidden" id="verifySessionId"></div>
+              <div class="checktip">
+                <span class="Validform_checktip Validform_right" id="code_error">
+
+                </span>
+
+              </div>
+            </dd>
+          </dl>
+        </div>
+        <div id="tips"></div>
+        <input type="hidden" value="https://www.nubia.com/order/member">
+        <input type="button" style="margin-top:10px" name="" id="login_btn_id" class="btn-login" value="立即登录">
+        <div class="register-now">
+          <a href="" style="color:#e8380d">注册新账号</a>
+          <span style="font-size: 18px;padding: 0 7px;color: #d5d5d5;"></span>
+          <a href="" style="color:#34383d">忘记密码?</a>
+        </div>
+        <div class="third-login">
+          <span style="float:left;line-height:30px;color:#666;">
+            其他方式登录：</span>
+          <label for="" class="login-rem" style="float:left">
+            <a href="#" class="qq"></a>
+            <a href="#" class="weibo"></a>
+            <a href="#" class="alipay"></a>
+            <a href="#" class="wx"></a>
+          </label>
+
+        </div>
+      </div>
+    </form>
+
+  </div>
+<!-- 底部  -->
+  <div id="nb-footer">
+    <div class="nubia-copyright">
+      <p> 2012-2019 努比亚 版权所有 粤ICP备18069660号-3 ICP经营许可证编号：粤B2-20120688 深圳市努比亚信息技术有限公司</p>
+    </div>
+  </div>
+</body>
+
+</html>
